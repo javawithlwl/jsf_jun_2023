@@ -12,10 +12,6 @@ public class SwapOfTwoNumbers {
     System.out.println("Enter the num2: ");
     int num2 = sc.nextInt();
     System.out.println("Before swapping num1: " + num1 + " and num2: " + num2);
-    /* int temp = num1;
-        num1 = num2;
-        num2 = temp; */
-    // Swap two numbers without using temp variable
     num1 = num1 * num2;
     num2 = num1 / num2;
     num1 = num1 / num2;

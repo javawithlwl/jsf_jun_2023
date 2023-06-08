@@ -3,3 +3,11 @@
 3. Write a program to find the simple interest based on the following data: P = Rs 6000, R = 10%, T = 1.5 years.
 4. Write a program to accept two numbers from the user and swap their values. (Example: x=12, y=15; after swapping x=15, y=12)
 5. Write a program to accept the weight of 5 persons (one by one) and display the net weight and the average weight.
+
+
+1. Write a program to accept a number from the user. If the number is negative then convert it to a positive number and print; if it is a positive number, print it as is.
+2. Write a program to accept the bill amount and age of the customer; if the customer’s age is >50 years then give a discount of 5% on the bill.
+3. Write a program to accept a number and find whether it is even or odd.
+4. Write a program to accept two numbers from the user and find the bigger of the two.
+5. Write a program to accept three numbers and find the biggest number.
+6. If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made a profit or incurred a loss. Also determine the quantum of profit or loss.
