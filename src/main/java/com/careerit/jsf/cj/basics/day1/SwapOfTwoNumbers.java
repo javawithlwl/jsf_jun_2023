@@ -16,9 +16,9 @@ public class SwapOfTwoNumbers {
         num1 = num2;
         num2 = temp; */
     // Swap two numbers without using temp variable
-    num1 = num1 + num2;
-    num2 = num1 - num2;
-    num1 = num1 - num2;
+    num1 = num1 * num2;
+    num2 = num1 / num2;
+    num1 = num1 / num2;
     System.out.println("After swapping num1: " + num1 + " and num2: " + num2);
   }
 }
