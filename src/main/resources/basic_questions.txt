@@ -11,3 +11,4 @@
 4. Write a program to accept two numbers from the user and find the bigger of the two.
 5. Write a program to accept three numbers and find the biggest number.
 6. If cost price and selling price of an item is input through the keyboard, write a program to determine whether the seller has made a profit or incurred a loss. Also determine the quantum of profit or loss.
+
