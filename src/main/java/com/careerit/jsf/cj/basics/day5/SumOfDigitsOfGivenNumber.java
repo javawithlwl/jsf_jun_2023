@@ -4,7 +4,6 @@ public class SumOfDigitsOfGivenNumber {
 
   public static void main(String[] args) {
     int num = 63981;
-
     int rev = 0;
     while (num != 0) {
       int r = num % 10;
