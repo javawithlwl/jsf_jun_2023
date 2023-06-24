@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class WalletManager {
 
   public static void main(String[] args) {
-
     WalletService walletService = new WalletService();
-
     Scanner sc = new Scanner(System.in);
     while (true) {
       System.out.println("1. Create Wallet 2.Show Wallet 3. Show all wallets 4. Delete wallet 5. Transfer amount 6. Load amount 7. Exit");
@@ -76,6 +74,5 @@ public class WalletManager {
           System.out.println("Invalid choice");
       }
     }
-
   }
 }
