@@ -1,0 +1,243 @@
+Name,Role,Amount,Country,Team
+MS Dhoni,WK-Batsman,185000000,India,CSK
+Ruturaj Gaikwad,Batsman,185000000,India,CSK
+Ambati Rayudu,WK-Batsman,67500000,India,CSK
+Devon Conway,Batsman,10000000,New Zealand,CSK
+Subhranshu Senapati,Batsman,2000000,India,CSK
+Deepak Chahar,Bowler,140000000,India,CSK
+Tushar Deshpande,Bowler,2000000,India,CSK
+Maheesh Theekshana,Bowler,7000000,Sri Lanka,CSK
+Simranjeet Singh,Bowler,2000000,India,CSK
+Matheesha Pathirana,Bowler,2000000,Sri Lanka,CSK
+Mukesh Choudhary,Bowler,2000000,India,CSK
+Prashant Solanki,Bowler,12000000,India,CSK
+Mitchell Santner,Bowler,19000000,New Zealand,CSK
+Rajvardhan Hangargekar,Bowler,15000000,India,CSK
+Ravindra Jadeja,All-rounder,160000000,India,CSK
+Moeen Ali,All-rounder,185000000,England,CSK
+Shivam Dube,All-rounder,40000000,India,CSK
+Dwaine Pretorius,All-rounder,5000000,South Africa,CSK
+Ben Stokes,All-rounder,162500000,England,CSK
+A Rahane,Batsman,5000000,India,CSK
+Kyle Jamieson,Bowler,10000000,New Zealand,CSK
+Nishant Sindhu,All-rounder,2000000,India,CSK
+Shaik Rasheed,Batsman,2000000,India,CSK
+Ajay Mandal,Bowler,2000000,India,CSK
+Bhagath Verma,All-rounder,2000000,India,CSK
+Rishabh Pant,WK-Batsman,160000000,India,DC
+Prithvi Shaw,Batsman,75000000,India,DC
+David Warner,Batsman,62500000,Australia,DC
+Sarfaraz Khan,Batsman,2000000,India,DC
+Yash Dhull,Batsman,5000000,India,DC
+Rovman Powell,Batsman,28000000,West Indies,DC
+Anrich Nortje,Bowler,65000000,South Africa,DC
+Kamlesh Nagarkoti,Bowler,11000000,India,DC
+Mustafizur Rahman,Bowler,20000000,Bangladesh,DC
+Lungi Ngidi,Bowler,5000000,South Africa,DC
+Khaleel Ahmed,Bowler,52500000,India,DC
+Chetan Sakariya,Bowler,42000000,India,DC
+Praveen Dubey,Bowler,5000000,India,DC
+Kuldeep Yadav,Bowler,20000000,India,DC
+Axar Patel,All-rounder,90000000,India,DC
+Mitchell Marsh,All-rounder,65000000,Australia,DC
+Lalit Yadav,All-rounder,6500000,India,DC
+Ripal Patel,All-rounder,2000000,India,DC
+Vicky Ostwal,All-rounder,2000000,India,DC
+Aman Khan,All-Rounder,2000000,India,DC
+Ishant Sharma,Bowler,5000000,India,DC
+Phil Salt,WK-Batsman,20000000,England,DC
+Mukesh Kumar,Bowler,55000000,India,DC
+Manish Pandey,Batsman,24000000,India,DC
+Rilee Rossouw,Batsman,46000000,South Africa,DC
+Shubman Gill,Batsman,80000000,India,GT
+Sai Sudarshan,Batsman,2000000,India,GT
+Abhinav Sadarangani,Batsman,26000000,India,GT
+David Miller,Batsman,30000000,South Africa,GT
+Matthew Wade,WK-Batsman,24000000,Australia,GT
+Wriddhiman Saha,WK-Batsman,19000000,India,GT
+Rashid Khan,Bowler,150000000,Afghanistan,GT
+Darshan Nalkande,Bowler,2000000,India,GT
+Yash Dayal,Bowler,32000000,India,GT
+Pradeep Sangwan,Bowler,2000000,India,GT
+Alzarri Joseph,Bowler,24000000,West Indies,GT
+R Sai Kishore,Bowler,30000000,India,GT
+Noor Ahmad,Bowler,3000000,Afghanistan,GT
+Mohammed Shami,Bowler,62500000,India,GT
+Hardik Pandya,All-rounder,150000000,India,GT
+Vijay Shankar,All-rounder,14000000,India,GT
+Jayant Yadav,All-rounder,17000000,India,GT
+Rahul Tewatia,All-rounder,90000000,India,GT
+Kane Williamson,Batsman,20000000,New Zealand,GT
+Odean Smith,All-rounder,5000000,West Indies,GT
+KS Bharat,WK-Batsman,12000000,India,GT
+Shivam Mavi,Bowler,60000000,India,GT
+Urvil Patel,WK-Batsman,2000000,India,GT
+Joshua Little,Bowler,44000000,Ireland,GT
+Mohit Sharma,Bowler,5000000,India,GT
+Shreyas Iyer,Batsman,122500000,India,KKR
+Nitish Rana,Batsman,80000000,India,KKR
+Rinku Singh,Batsman,5500000,India,KKR
+Varun Chakravarty,Bowler,80000000,India,KKR
+Tim Southee,Bowler,15000000,New Zealand,KKR
+Umesh Yadav,Bowler,20000000,India,KKR
+Andre Russell,All-rounder,120000000,West Indies,KKR
+Venkatesh Iyer,All-rounder,80000000,India,KKR
+Sunil Narine,All-rounder,60000000,West Indies,KKR
+Anukul Roy,All-rounder,2000000,India,KKR
+Shardul Thakur,Bowler,107500000,India,KKR
+Lockie Ferguson,Bowler,100000000,New Zealand,KKR
+Rahmanullah Gurbaz,WK-Batsman,5000000,Afghanistan,KKR
+Harshit Rana,Bowler,2000000,India,KKR
+N. Jagadeesan,WK-Batsman,9000000,India,KKR
+Vaibhav Arora,Bowler,6000000,India,KKR
+Suyash Sharma,Bowler,2000000,India,KKR
+David Wiese,All-rounder,10000000,Namibia,KKR
+Kulwant Khejroliya,Bowler,2000000,India,KKR
+Litton Das,WK-Batsman,5000000,Bangladesh,KKR
+Mandeep Singh,Batsman,5000000,India,KKR
+Shakib Al Hasan,All-rounder,15000000,Bangladesh,KKR
+Manan Vohra,Batsman,2000000,India,LSG
+KL Rahul,WK-Batsman,170000000,India,LSG
+Quinton de Kock,WK-Batsman,67500000,South Africa,LSG
+Ravi Bishnoi,Bowler,40000000,India,LSG
+Mohsin Khan,Bowler,2000000,India,LSG
+Mayank Yadav,Bowler,2000000,India,LSG
+Avesh Khan,Bowler,100000000,India,LSG
+Marcus Stoinis,All-rounder,92000000,Australia,LSG
+Kyle Mayers,All-rounder,5000000,West Indies,LSG
+Karan Sharma,All-rounder,2000000,India,LSG
+K Gowtham,All-rounder,9000000,India,LSG
+Ayush Badoni,All-rounder,2000000,India,LSG
+Deepak Hooda,All-rounder,57500000,India,LSG
+Krunal Pandya,All-rounder,82500000,India,LSG
+Nicholas Pooran,WK-Batsman,185000000,West Indies,LSG
+Jaydev Unadkat,Bowler,5000000,India,LSG
+Yash Thakur,Bowler,4500000,India,LSG
+Romario Shepherd,All-rounder,5000000,West Indies,LSG
+Daniel Sams,All-rounder,7500000,Australia,LSG
+Amit Mishra,Bowler,5000000,India,LSG
+Prerak Mankad,All-rounder,2000000,India,LSG
+Swapnil Singh,All-rounder,2000000,India,LSG
+Naveen-ul-Haq,Bowler,5000000,Afghanistan,LSG
+Yudhvir Charak,All-rounder,2000000,India,LSG
+Rohit Sharma,Batsman,160000000,India,MI
+Suryakumar Yadav,Batsman,80000000,India,MI
+Tilak Varma,Batsman,17000000,India,MI
+Ramandeep Singh,Batsman,2000000,India,MI
+Dewald Brevis,Batsman,30000000,India,MI
+Ishan Kishan,WK-Batsman,152500000,India,MI
+Jasprit Bumrah,Bowler,120000000,India,MI
+Kumar Kartikeya Singh,Bowler,2000000,India,MI
+Jofra Archer,Bowler,80000000,England,MI
+Hrithik Shokeen,All-rounder,2000000,India,MI
+Arjun Tendulkar,All-rounder,3000000,India,MI
+Tim David,All-rounder,82500000,Singapore,MI
+Tristan Stubbs,WK-Batsman,2000000,South Africa,MI
+Arshad Khan,All-rounder,2000000,India,MI
+Akash Madhwal,Bowler,2000000,India,MI
+Jason Behrendorff,Bowler,2000000,Australia,MI
+Cameron Green,All-rounder,175000000,Australia,MI
+Jhye Richardson,Bowler,15000000,Australia,MI
+Piyush Chawla,Bowler,5000000,India,MI
+Duan Jansen,All-rounder,2000000,South Africa,MI
+Shams Mulani,All-rounder,2000000,India,MI
+Nehal Wadhera,All-rounder,2000000,India,MI
+Vishnu Vinod,WK-Batsman,2000000,India,MI
+Raghav Goyal,Bowler,2000000,India,MI
+Yashasvi Jaiswal,Batsman,40000000,India,RR
+Devdutt Padikkal,Batsman,77500000,India,RR
+Shimron Hetmyer,Batsman,85000000,West Indies,RR
+Sanju Samson,WK-Batsman,140000000,India,RR
+Jos Buttler,WK-Batsman,100000000,England,RR
+Dhruv Jurel,WK-Batsman,2000000,India,RR
+Kuldip Yadav,Bowler,2000000,India,RR
+Navdeep Saini,Bowler,26000000,India,RR
+Kuldeep Sen,Bowler,2000000,India,RR
+Obed McCoy,Bowler,7500000,West Indies,RR
+KC Kariappa,Bowler,3000000,India,RR
+Yuzvendra Chahal,Bowler,65000000,India,RR
+Prasidh Krishna,Bowler,100000000,India,RR
+Trent Boult,Bowler,80000000,New Zealand,RR
+Riyan Parag,All-rounder,38000000,India,RR
+Ravichandran Ashwin,All-rounder,50000000,India,RR
+Jason Holder,All-rounder,57500000,West Indies,RR
+Donovan Ferreira,WK-Batsman,5000000,South Africa,RR
+Kunal Rathore,WK-Batsman,2000000,India,RR
+Adam Zampa,Bowler,15000000,Australia,RR
+KM Asif,Bowler,3000000,India,RR
+Murugan Ashwin,Bowler,2000000,India,RR
+Akash Vashisht,All-rounder,2000000,India,RR
+Abdul P A,Bowler,2000000,India,RR
+Joe Root,Batsman,10000000,England,RR
+Virat Kohli,Batsman,150000000,India,RCB
+Suyash Prabhudessai,Batsman,3000000,India,RCB
+Faf du Plessis,Batsman,70000000,South Africa,RCB
+Rajat Patidar,Batsman,2000000,India,RCB
+Anuj Rawat,WK-Batsman,34000000,India,RCB
+Finn Allen,WK-Batsman,8000000,New Zealand,RCB
+Dinesh Karthik,WK-Batsman,55000000,India,RCB
+Mohammed Siraj,Bowler,70000000,India,RCB
+Karn Sharma,Bowler,5000000,India,RCB
+Siddarth Kaul,Bowler,7500000,India,RCB
+Josh Hazlewood,Bowler,77500000,Australia,RCB
+Harshal Patel,Bowler,107500000,India,RCB
+Akash Deep,Bowler,2000000,India,RCB
+Glenn Maxwell,All-rounder,110000000,Australia,RCB
+David Willey,All-rounder,20000000,England,RCB
+Mahipal Lomror,All-rounder,9500000,India,RCB
+Shahbaz Ahmed,All-rounder,24000000,India,RCB
+Wanindu Hasaranga,All-rounder,107500000,Sri Lanka,RCB
+Reece Topley,Bowler,19000000,England,RCB
+Will Jacks,All-Rounder,32000000,England,RCB
+Himanshu Sharma,Bowler,2000000,India,RCB
+Manoj Bhandage,All-Rounder,2000000,India,RCB
+Rajan Kumar,Bowler,7000000,India,RCB
+Avinash Singh,Bowler,6000000,India,RCB
+R Sonu Yadav,All-Rounder,2000000,India,RCB
+Aiden Markram,Batsman,26000000,South Africa,SRH
+Rahul Tripathi,Batsman,85000000,India,SRH
+Glenn Phillips,WK-Batsman,15000000,New Zealand,SRH
+Umran Malik,Bowler,40000000,India,SRH
+Fazal Haq Farooqi,Bowler,5000000,Afghanistan,SRH
+Kartik Tyagi,Bowler,40000000,India,SRH
+T Natarajan,Bowler,40000000,India,SRH
+Bhuvneshwar Kumar,Bowler,42000000,India,SRH
+Abdul Samad,All-rounder,40000000,India,SRH
+Marco Jansen,All-rounder,42000000,South Africa,SRH
+Abhishek Sharma,All-rounder,65000000,India,SRH
+Washington Sundar,All-rounder,87500000,India,SRH
+Harry Brook,Batsman,132500000,England,SRH
+Mayank Agarwal,Batsman,82500000,India,SRH
+Heich Klaasen,WK-Batsman,52000000,South Africa,SRH
+Adil Rashid,Bowler,20000000,England,SRH
+Mayank Markande,Bowler,5000000,India,SRH
+Vivrant Sharma,All-rounder,26000000,India,SRH
+Samarth Vyas,All-rounder,2000000,India,SRH
+Sanvir Singh,All-rounder,2000000,India,SRH
+Upendra Yadav,WK-Batsman,2500000,India,SRH
+Mayank Dagar,All-rounder,18000000,India,SRH
+Nitish Kumar Reddy,WK-Batsman,2000000,India,SRH
+Akeal Hosein,Bowler,10000000,West Indies,SRH
+Anmolpreet Singh,Batsman,2000000,India,SRH
+Bhanuka Rajapaksa,Batsman,5000000,Sri Lanka,PBKS
+Shahrukh Khan,Batsman,90000000,India,PBKS
+Shikhar Dhawan,Batsman,82500000,India,PBKS
+Prabhsimran Singh,WK-Batsman,6000000,India,PBKS
+Jitesh Sharma,WK-Batsman,2000000,India,PBKS
+Jonny Bairstow,WK-Batsman,67500000,England,PBKS
+Arshdeep Singh,Bowler,40000000,India,PBKS
+Raj Bawa,Bowler,20000000,India,PBKS
+Nathan Ellis,Bowler,7500000,Australia,PBKS
+Harpreet Brar,Bowler,38000000,India,PBKS
+Rahul Chahar,Bowler,52500000,India,PBKS
+Kagiso Rabada,Bowler,92500000,South Africa,PBKS
+Baltej Singh,All-rounder,2000000,India,PBKS
+Liam Livingstone,All-rounder,115000000,England,PBKS
+Rishi Dhawan,All-rounder,5500000,India,PBKS
+Atharva Taide,All-rounder,2000000,India,PBKS
+Sam Curran,All-rounder,185000000,England,PBKS
+Sikandar Raza,All-rounder,5000000,Zimbabwe,PBKS
+Harpreet Bhatia,Batsman,4000000,India,PBKS
+Vidwath Kaverappa,Bowler,2000000,India,PBKS
+Mohit Rathee,All-rounder,2000000,India,PBKS
+Shivam Singh,All-rounder,2000000,India,PBKS
