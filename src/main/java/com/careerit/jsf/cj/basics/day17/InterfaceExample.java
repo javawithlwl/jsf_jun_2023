@@ -1,5 +1,8 @@
 package com.careerit.jsf.cj.basics.day17;
 
+import java.util.ArrayList;
+import java.util.List;
+
 interface NumberOperations {
   boolean isPrime(int num);
   int gcd(int a, int b);
@@ -13,6 +16,34 @@ interface NumberOperations {
       }
       return count;
   }
+  default List<Integer> primeInRange(int lb,int ub){
+      List<Integer> list = new ArrayList<>();
+      for(int i=lb;i<=ub;i++){
+          if(isPrime(i)){
+              list.add(i);
+          }
+      }
+      return list;
+  }
+  private int bigNumber(int num1,int num2){
+    return num1 > num2 ? num1 : num2;
+  }
+
+  static int factorial(int num){
+      int res = 1;
+      for(int i=2;i<=num;i++){
+          res *= i;
+      }
+      return res;
+  }
+  private static int sum(int... arr){
+      int sum = 0;
+      for(int ele:arr){
+          sum += ele;
+      }
+      return sum;
+  }
+
 }
 
 class BasicNumberOperations implements NumberOperations {
@@ -101,5 +132,6 @@ public class InterfaceExample {
         System.out.println(flag);
         int rev = obj.reverse(1234);
         System.out.println(rev);
+        int primeList = obj.primeCountInRange(1, 100);
   }
 }
