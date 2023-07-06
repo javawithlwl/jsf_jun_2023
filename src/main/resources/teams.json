@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "MS Dhoni",
+    "role": "WK-Batsman",
+    "team": "CSK",
+    "country": "India",
+    "amount": 185000000
+  },
+  {
+    "id": 2,
+    "name": "Ruturaj Gaikwad",
+    "role": "Batsman",
+    "team": "CSK",
+    "country": "India",
+    "amount": 60000000
+  },
+  {
+    "id": 3,
+    "name": "Ambati Rayudu",
+    "role": "WK-Batsman",
+    "team": "CSK",
+    "country": "India",
+    "amount": 67500000
+  },
+  {
+    "id": 4,
+    "name": "Devon Conway",
+    "role": "Batsman",
+    "team": "CSK",
+    "country": "New Zealand",
+    "amount": 10000000
+  },
+  {
+    "id": 5,
+    "name": "Subhranshu Senapati",
+    "role": "Batsman",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 6,
+    "name": "Deepak Chahar",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 140000000
+  },
+  {
+    "id": 7,
+    "name": "Tushar Deshpande",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 8,
+    "name": "Maheesh Theekshana",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "Sri Lanka",
+    "amount": 7000000
+  },
+  {
+    "id": 9,
+    "name": "Simranjeet Singh",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 10,
+    "name": "Matheesha Pathirana",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "Sri Lanka",
+    "amount": 2000000
+  },
+  {
+    "id": 11,
+    "name": "Mukesh Choudhary",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 12,
+    "name": "Prashant Solanki",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 12000000
+  },
+  {
+    "id": 13,
+    "name": "Mitchell Santner",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "New Zealand",
+    "amount": 19000000
+  },
+  {
+    "id": 14,
+    "name": "Rajvardhan Hangargekar",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 15000000
+  },
+  {
+    "id": 15,
+    "name": "A Rahane",
+    "role": "Batsman",
+    "team": "CSK",
+    "country": "India",
+    "amount": 5000000
+  },
+  {
+    "id": 16,
+    "name": "Kyle Jamieson",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "New Zealand",
+    "amount": 10000000
+  },
+  {
+    "id": 17,
+    "name": "Shaik Rasheed",
+    "role": "Batsman",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 18,
+    "name": "Ajay Mandal",
+    "role": "Bowler",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 176,
+    "name": "Ravindra Jadeja",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "India",
+    "amount": 160000000
+  },
+  {
+    "id": 177,
+    "name": "Moeen Ali",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "England",
+    "amount": 185000000
+  },
+  {
+    "id": 178,
+    "name": "Shivam Dube",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "India",
+    "amount": 40000000
+  },
+  {
+    "id": 179,
+    "name": "Dwaine Pretorius",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "South Africa",
+    "amount": 5000000
+  },
+  {
+    "id": 180,
+    "name": "Ben Stokes",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "England",
+    "amount": 162500000
+  },
+  {
+    "id": 181,
+    "name": "Nishant Sindhu",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  },
+  {
+    "id": 182,
+    "name": "Bhagath Verma",
+    "role": "All-Rounder",
+    "team": "CSK",
+    "country": "India",
+    "amount": 2000000
+  }
+]
