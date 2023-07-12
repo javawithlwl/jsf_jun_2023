@@ -46,15 +46,15 @@ public class IplStatsServiceImpl implements IplStatsService {
                 .filter(teamDetails -> teamDetails.getLabel().equals(teamLabel))
                 .map(teamDetails -> {
                    return teamDetails.getPlayers().stream()
-                            .map(playerDetails -> {
-                                PlayerDetailsDto playerDetailsDto = new PlayerDetailsDto();
-                                playerDetailsDto.setPlayerName(playerDetails.getName());
-                                playerDetailsDto.setRole(playerDetails.getRole());
-                                playerDetailsDto.setAmount(playerDetails.getAmount());
-                                playerDetailsDto.setLabel(teamDetails.getLabel());
-                                playerDetailsDto.setTeamName(teamDetails.getName());
-                                return playerDetailsDto;
-                   }).toList();
+                            .map(playerDetails ->
+                                 PlayerDetailsDto.builder()
+                                        .playerName(playerDetails.getName())
+                                        .role(playerDetails.getRole())
+                                        .amount(playerDetails.getAmount())
+                                        .teamName(teamDetails.getName())
+                                        .label(teamDetails.getLabel())
+                                        .build()
+                            ).toList();
                 }).flatMap(List::stream).toList();
     }
 
