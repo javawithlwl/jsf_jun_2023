@@ -11,6 +11,7 @@
     <modules>
         <module>learning-jdbc</module>
         <module>learning-core-java</module>
+        <module>learning-external-files</module>
     </modules>
 
     <properties>
