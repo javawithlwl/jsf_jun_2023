@@ -1,0 +1,33 @@
+[
+  {
+    "username": "admin",
+    "password": "admin@lwl.com",
+    "mobile": "9876543210"
+  },
+  {
+    "username": "krish",
+    "password": "krish@lwl.com",
+    "mobile": "9876543211"
+  },
+  {
+    "username": "arun",
+    "password": "arun@lwl.com",
+    "mobile": "9876543212"
+  },
+  {
+    "username": "siva",
+    "password": "siva@lwl.com",
+    "mobile": "9876543213"
+  },
+  {
+    "username": "sathish",
+    "password": "sathish@lwl.com",
+    "mobile": "9876543214"
+  },
+  {
+    "username": "suresh",
+    "password": "suresh@lwl.com",
+    "mobile": "9876543215"
+  }
+
+]
