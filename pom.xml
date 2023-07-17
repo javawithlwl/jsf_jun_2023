@@ -12,9 +12,8 @@
         <module>learning-jdbc</module>
         <module>learning-core-java</module>
     </modules>
+
     <properties>
-        <project.target.version>20</project.target.version>
-        <project.source.version>20</project.source.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <commons-collections4.version>4.3</commons-collections4.version>
         <lombok.version>1.18.28</lombok.version>
@@ -46,5 +45,19 @@
         </dependency>
     </dependencies>
     </dependencyManagement>
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>20</source>
+                        <target>20</target>
+                        <compilerArgs>--enable-preview</compilerArgs>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
