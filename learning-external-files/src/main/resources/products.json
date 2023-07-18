@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1001,
+    "name": "Lenovo ThinkPad",
+    "price": 1200,
+    "description": "A business laptop with a 15.6-inch display",
+    "category": "Laptops"
+  },
+  {
+    "id": 1002,
+    "name": "Dell Inspiron",
+    "price": 800,
+    "description": "A business laptop with a 15.6-inch display",
+    "category": "Laptops"
+  },
+  {
+    "id": 1003,
+    "name": "HP Pavilion",
+    "price": 700,
+    "description": "A business laptop with a 15.6-inch display",
+    "category": "Laptops"
+  }
+]

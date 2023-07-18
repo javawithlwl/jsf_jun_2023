@@ -20,6 +20,7 @@
         <lombok.version>1.18.28</lombok.version>
         <jackson-databind.version>2.15.2</jackson-databind.version>
         <postgresql.version>42.6.0</postgresql.version>
+        <snakeyaml.version>2.0</snakeyaml.version>
     </properties>
     <dependencyManagement>
     <dependencies>
@@ -43,6 +44,11 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
         </dependency>
     </dependencies>
     </dependencyManagement>
