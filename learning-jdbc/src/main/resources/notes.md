@@ -1,4 +1,4 @@
-### JDBC - Java Database Connectivity
+`### JDBC - Java Database Connectivity
 
     - JDBC is a Java API to connect and execute query with the database.
     - JDBC API uses JDBC drivers to connect with the database.
@@ -46,3 +46,4 @@
     6. Close the connection
         connection.close();
 
+`

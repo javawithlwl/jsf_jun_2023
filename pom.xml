@@ -12,6 +12,8 @@
         <module>learning-jdbc</module>
         <module>learning-core-java</module>
         <module>learning-external-files</module>
+        <module>contact-cj-app</module>
+        <module>jsf-commons</module>
     </modules>
 
     <properties>
@@ -21,6 +23,7 @@
         <jackson-databind.version>2.15.2</jackson-databind.version>
         <postgresql.version>42.6.0</postgresql.version>
         <snakeyaml.version>2.0</snakeyaml.version>
+        <project.version>1.0-SNAPSHOT</project.version>
     </properties>
     <dependencyManagement>
     <dependencies>
@@ -49,6 +52,11 @@
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
             <version>${snakeyaml.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.careerit</groupId>
+            <artifactId>jsf-commons</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
     </dependencyManagement>
