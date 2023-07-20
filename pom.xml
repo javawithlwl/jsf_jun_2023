@@ -23,6 +23,7 @@
         <jackson-databind.version>2.15.2</jackson-databind.version>
         <postgresql.version>42.6.0</postgresql.version>
         <snakeyaml.version>2.0</snakeyaml.version>
+        <junit.version>5.8.2</junit.version>
         <project.version>1.0-SNAPSHOT</project.version>
     </properties>
     <dependencyManagement>
@@ -57,6 +58,12 @@
             <groupId>com.careerit</groupId>
             <artifactId>jsf-commons</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     </dependencyManagement>
