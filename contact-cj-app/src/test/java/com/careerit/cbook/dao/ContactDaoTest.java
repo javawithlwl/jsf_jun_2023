@@ -17,7 +17,7 @@ public class ContactDaoTest {
     ContactDao contactDao;
 
     @BeforeEach
-    public void cleanUp() {
+    public void init() {
         cleanUpData();
         contactDao = new ContactDaoImpl();
     }
