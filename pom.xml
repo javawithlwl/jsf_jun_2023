@@ -15,6 +15,7 @@
         <module>contact-cj-app</module>
         <module>jsf-commons</module>
         <module>learning-junit5</module>
+        <module>emp_currency_info</module>
     </modules>
 
     <properties>
