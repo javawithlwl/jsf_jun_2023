@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean name="contactService" class="com.careerit.sc.basics.ContactServiceImpl">
+            <property name="contactDao" ref="contactDao"></property>
+        </bean>
+        <bean name="contactDao" class="com.careerit.sc.basics.ContactDaoImpl">
+            <property name="dataProvider" ref="dataProvider"></property>
+        </bean>
+        <bean name="dataProvider" class="com.careerit.sc.basics.DataProvider"></bean>
+        <bean name="appUser" class="com.careerit.sc.basics.AppUser">
+            <property name="name" value="Krish"></property>
+            <property name="email" value="krish.t@gmail.com"></property>
+            <property name="country" value="India"></property>
+            <property name="mobile" value="9876543210"></property>
+        </bean>
+</beans>
