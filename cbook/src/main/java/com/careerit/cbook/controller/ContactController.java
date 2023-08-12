@@ -7,6 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/contact")
@@ -27,4 +29,20 @@ public class ContactController {
     public ResponseEntity<Long> addContacts(@RequestBody List<ContactDto> contactDtoList){
         return ResponseEntity.ok(contactService.addContacts(contactDtoList));
     }
+
+    @PutMapping("/updatecontact")
+    public ResponseEntity<ContactDto> updateContact(@RequestBody ContactDto contactDto) {
+        return ResponseEntity.ok(contactService.updateContact(contactDto));
+    }
+
+    @PatchMapping("/{id}/updatecontact")
+    public ResponseEntity<String> updateContact(@RequestBody Map<String,Object> updateMap,@PathVariable("id") UUID id) {
+        return ResponseEntity.ok(contactService.updateContact(id,updateMap));
+    }
+    @GetMapping("/search")
+    public ResponseEntity<List<ContactDto>> search(@RequestParam("str") String str){
+        return ResponseEntity.ok(contactService.search(str));
+    }
+
+
 }

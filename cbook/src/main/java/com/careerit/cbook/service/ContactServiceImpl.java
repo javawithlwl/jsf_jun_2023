@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 @Service
@@ -32,6 +33,11 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public ContactDto updateContact(ContactDto contactDto) {
+        return null;
+    }
+
+    @Override
+    public String updateContact(UUID id, Map<String, Object> updateMap) {
         return null;
     }
 
