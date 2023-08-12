@@ -18,6 +18,7 @@
         <module>emp_currency_info</module>
         <module>interview-questions</module>
         <module>learning-spring-core</module>
+        <module>learning-spring-data-jpa</module>
     </modules>
 
     <properties>
