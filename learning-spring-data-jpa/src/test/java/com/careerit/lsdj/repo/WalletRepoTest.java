@@ -2,7 +2,6 @@ package com.careerit.lsdj.repo;
 
 import com.careerit.lsdj.domain.Wallet;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,7 +15,7 @@ public class WalletRepoTest {
     @Autowired
     private WalletRepo walletRepo;
 
-    @BeforeEach
+    //@BeforeEach
     public void init(){
         walletRepo.deleteAll();
     }
@@ -34,6 +33,10 @@ public class WalletRepoTest {
         long count = walletRepo.count();
         Assertions.assertEquals(2,count);
     }
+    @Test
+    public void deleteWalletTest(){
+        walletRepo.deleteById(13L);
+    }
 
     @Test
     public void updateWalletTest(){
@@ -42,6 +45,13 @@ public class WalletRepoTest {
         savedWallet.setBalance(2000);
         Wallet updatedWallet = walletRepo.save(savedWallet);
         Assertions.assertEquals(2000,updatedWallet.getBalance());
+    }
+    @Test
+    public void getAllWallets(){
+        List<Wallet> list = walletRepo.findAll();
+        list.stream().forEach(ele->{
+            System.out.println(ele.getMobile()+" "+ele.getBalance()+" "+ele.isDeleted());
+        });
     }
 
     private Wallet getWallet(){

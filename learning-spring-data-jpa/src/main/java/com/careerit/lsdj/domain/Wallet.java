@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Table(name = "wallet_details")
 @Getter
 @Setter
-public class Wallet {
+public class Wallet extends BaseEntity {
 
        @Id
        @GeneratedValue(strategy = GenerationType.IDENTITY)
