@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-chncg4u4dad1d51vem90-a.oregon-postgres.render.com/jsf_may_2023
+    username: dbuser
+    password: 1HnWkrn3bIQUkkSfcnwk7gW8YW3nJIWy
+    jpa:
+      show-sql: true
+      properties:
+        hibernate:
+        format_sql: true

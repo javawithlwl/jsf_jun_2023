@@ -17,15 +17,15 @@ import java.time.ZoneOffset;
 public abstract class BaseEntity {
 
     @Column(name="created_by",nullable = false,updatable = false)
-    private long createdBy;
+    protected long createdBy;
     @Column(name = "modified_by",nullable = false,updatable = true)
-    private long modifiedBy;
+    protected long modifiedBy;
     @Column(name="created_date",nullable = false,updatable = false)
-    private LocalDateTime createDate;
+    protected LocalDateTime createDate;
     @Column(name="modified_date",nullable = false,updatable = true)
-    private LocalDateTime modifiedDate;
+    protected LocalDateTime modifiedDate;
     @Column(name="deleted", nullable = false)
-    private boolean deleted;
+    protected boolean deleted;
 
     @PrePersist
     public void onPrePersist(){

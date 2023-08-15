@@ -19,6 +19,7 @@
         <module>interview-questions</module>
         <module>learning-spring-core</module>
         <module>learning-spring-data-jpa</module>
+        <module>ipl-stats-server-app</module>
     </modules>
 
     <properties>
