@@ -1,10 +1,9 @@
 package com.careerit.iplstats.service;
 
-import com.careerit.iplstats.dto.MaxPaidPlayerDto;
-import com.careerit.iplstats.dto.PlayerDto;
-import com.careerit.iplstats.dto.TeamStatsDto;
+import com.careerit.iplstats.dto.*;
 import com.careerit.iplstats.exceptions.IplStatsException;
 import com.careerit.iplstats.repo.PlayerRepo;
+import com.careerit.iplstats.util.MapperUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,6 +29,7 @@ public class IplStatsServiceImpl implements IplStatsService {
 
     @Override
     public TeamStatsDto getTeamStats(String teamName) {
+
         Assert.notNull(teamName, "Team name can't be null or empty");
         TeamStatsDto teamStats = playerRepo.getTeamStats(teamName);
         if (teamStats == null) {
@@ -42,13 +42,56 @@ public class IplStatsServiceImpl implements IplStatsService {
     @Override
     public MaxPaidPlayerDto getMaxPaidPlayers(String teamName) {
         Assert.notNull(teamName, "Team name can't be null or empty");
-        List<PlayerDto> playerDtoList = playerRepo.getMaxPaidPlayers(teamName);
+        List<IPlayerDto> playerDtoList = playerRepo.getMaxPaidPlayers(teamName);
         if (CollectionUtils.isEmpty(playerDtoList)) {
             throw new IplStatsException("Invalid team name or team details are not found " + teamName);
         }
-        Map<String, List<PlayerDto>> maxPaidPlayerList = playerDtoList.stream().collect(Collectors.groupingBy(PlayerDto::getRole));
+        log.info("Max paid players count {}",playerDtoList.size());
+
+        Map<String, List<PlayerDto>> maxPaidPlayerList = playerDtoList.stream().
+                map(ele->{
+                    PlayerDto playerDto = new PlayerDto();
+                    playerDto.setId(ele.getId());
+                    playerDto.setName(ele.getName());
+                    playerDto.setTeamName(ele.getTeamName());
+                    playerDto.setAmount(ele.getAmount());
+                    playerDto.setRole(ele.getRole());
+                    return playerDto;
+                }).collect(Collectors.groupingBy(PlayerDto::getRole));
         MaxPaidPlayerDto maxPaidPlayers = new MaxPaidPlayerDto();
         maxPaidPlayers.setMaxPaidPlayers(maxPaidPlayerList);
         return maxPaidPlayers;
+    }
+
+    @Override
+    public List<TeamAmountStatsDto> getTeamAmountStats() {
+        return playerRepo.getTeamAmountStats();
+    }
+
+    @Override
+    public List<RoleCountStatsDto> getRoleCountStats() {
+        return playerRepo.getRoleCountStats();
+    }
+
+    @Override
+    public TeamStatsSummary getTeamStatsSummary(String teamName) {
+
+        TeamStatsDto teamStatsDto = playerRepo.getTeamStats(teamName);
+        List<PlayerDto> players = playerRepo
+                .findByTeamName(teamName)
+                .stream()
+                .map(ele->MapperUtil.convert(ele,PlayerDto.class))
+                .toList();
+        MaxPaidPlayerDto maxPaidPlayerDto = getMaxPaidPlayers(teamName);
+
+        TeamStatsSummary teamStatsSummary = TeamStatsSummary.builder()
+                .teamStatsDto(teamStatsDto)
+                .players(players)
+                .maxPaidPlayerDto(maxPaidPlayerDto)
+                .build();
+        log.info("Team {} summary stats",teamName);
+        return teamStatsSummary;
+
+
     }
 }
